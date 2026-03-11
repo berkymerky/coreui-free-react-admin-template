@@ -12,3 +12,5 @@ services:
     environment:
       - CHOKIDAR_USEPOLLING=true
     restart: unless-stopped
+volumes:
+  coreui_node_modules:
