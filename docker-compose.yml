@@ -5,7 +5,7 @@ services:
     container_name: coreui-react
     build: .
     ports:
-      - "5173:5173"
+      -  "5176:3000"
     volumes:
       - /data/snapology-dashboard-dev/logs:/app/logs
     environment:
