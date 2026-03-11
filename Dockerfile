@@ -12,4 +12,4 @@ COPY . .
 EXPOSE 5173
 
 # Vite dev server must bind to 0.0.0.0 inside container
-CMD ["npm","run","dev","--","--host","0.0.0.0"]
+CMD ["npm","start","--","--host","0.0.0.0"]
